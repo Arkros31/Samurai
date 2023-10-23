@@ -10,8 +10,6 @@ public class HistoireTp4 {
         Ronin ronin = new Ronin("Roro", "shochu", 60);
 
         ronin.direBonjour();
-        int don = ronin.getArgent()/10;
         ronin.donner(marchand);
-        marchand.recevoir(don);
     }
 }
