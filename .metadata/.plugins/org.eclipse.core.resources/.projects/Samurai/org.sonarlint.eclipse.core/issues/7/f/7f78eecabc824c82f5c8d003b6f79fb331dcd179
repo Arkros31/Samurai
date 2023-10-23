@@ -1,11 +1,11 @@
 
-‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1H%RMINORZ
+‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1HSRMINORZ
 CODE_SMELL
-a	java:S106!"+Replace this use of System.out by a logger.(ÚðèÂøÿÿÿÿ8ëÂ™ëµ1H'RMAJORZ
+‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1HQRMINORZ
 CODE_SMELL
-‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1H$RMINORZ
+a	java:S106!"+Replace this use of System.out by a logger.(ÚðèÂøÿÿÿÿ8ëÂ™ëµ1HRRMAJORZ
 CODE_SMELL
-‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1H&RMINORZ
+‡	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û²¬Éüÿÿÿÿ8ëÂ™ëµ1HPRMINORZ
 CODE_SMELL
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô³ÎóHRMINORZ
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô³ÎóHTRMINORZ
 CODE_SMELL

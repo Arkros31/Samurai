@@ -1,6 +1,6 @@
 
-„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·½âHRMINORZ
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·½âHORMINORZ
 CODE_SMELL
-~
-java:S1192"IDefine a constant instead of duplicating this literal "kombucha" 3 times.(İ½£å8§Õ½ëµ1H;RCRITICALZ
+g
+java:S1128"/Remove this unused import 'Personnages.Humain'.(ÖÃÄêúÿÿÿÿ8ÌíÃìµ1HRMINORZ
 CODE_SMELL

@@ -1,14 +1,15 @@
 package Histoire;
 import Personnages.Humain;
+import Personnages.Commercant;
 
 public class HistoireTp4 {
 	
 	public static void main(String[] args) {
-			Humain prof = new Humain("prof", 54, "kombucha");
-			prof.direBonjour();
-			prof.acheter("kombucha", 12);
-			prof.boire("kombucha");
-			prof.acheter("jeu", 2);
-			prof.acheter("kimono", 50);
+		Commercant marchand = new Commercant("Marco");
+        
+        marchand.direBonjour();
+        marchand.seFaireExtorquer();
+        marchand.recevoir(15);
+        marchand.boire("thé");
 	}
 }
