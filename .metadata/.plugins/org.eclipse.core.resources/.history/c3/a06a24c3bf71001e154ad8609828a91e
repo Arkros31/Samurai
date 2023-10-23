@@ -1,0 +1,10 @@
+package Personnages;
+
+public class Humain {
+
+		private String nom;
+		private int argent;
+}
+
+
+

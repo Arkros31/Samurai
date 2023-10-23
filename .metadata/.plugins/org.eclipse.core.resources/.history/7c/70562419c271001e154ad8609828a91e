@@ -1,0 +1,22 @@
+package Personnages;
+
+public class Humain {
+
+	private String Nom;
+	private int Argent;
+	private String BoissonPref
+	
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	public int getArgent() {
+		return argent;
+	}
+		
+	
+}
+
+
+
