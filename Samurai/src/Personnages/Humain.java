@@ -1,17 +1,49 @@
 package Personnages;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Humain {
+    private String nom;
+    private int argent;
+    private String boissonPref;
+    private List<Humain> memoire;
 
-	private String nom;
-	protected int argent;
-	private String boissonPref;
+    public Humain(String nom, int argent, String boissonPref) {
+        this.nom = nom;
+        this.boissonPref = boissonPref;
+        this.argent = argent;
+        this.memoire = new ArrayList<>();
+    }
 
-	public Humain(String Nom, int Argent, String BoissonPref) {
-		super();
-		nom = Nom;
-		argent = Argent;
-		boissonPref = BoissonPref;
-	}
+    public void faireConnaissanceAvec(Humain autreHumain) {
+        memoire.add(autreHumain);
+        autreHumain.memoire.add(this);
+        
+        this.direBonjour();
+        autreHumain.direBonjour();
+        
+        while (memoire.size() > 3) {
+            Humain plusAncien = memoire.get(0);
+            for (Humain autre : memoire) {
+                if (autre != autreHumain && autre.memoire.size() > plusAncien.memoire.size()) {
+                    plusAncien = autre;
+                }
+            }
+            memoire.remove(plusAncien);
+        }
+    }
+
+    public void listerConnaissance() {
+        parler("Je connais beaucoup de monde dont : ");
+        for (int i = 0; i < memoire.size(); i++) {
+            System.out.print(memoire.get(i).nom);
+            if (i < memoire.size() - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+    }
 
 	public String getNom() {
 		return nom;
