@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Personnages.Humain"/>
     <fullyQualifiedTypeName name="Personnages.Ronin"/>
+    <fullyQualifiedTypeName name="personnages.Traître"/>
+    <fullyQualifiedTypeName name="Personnages.Commercant"/>
 </qualifiedTypeNameHistroy>

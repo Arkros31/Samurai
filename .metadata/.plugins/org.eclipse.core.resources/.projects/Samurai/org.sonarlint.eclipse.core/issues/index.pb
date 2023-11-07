@@ -11,3 +11,7 @@ J
 src/Personnages/Ronin.java,8\9\8963c669bbecee00f2905798850328853d04a18f
 M
 src/Histoire/HistoireTP5.java,b\5\b5fe028a4e23531a6a5492217b3e44ecafbaecb5
+M
+src/Personnages/Samourai.java,b\3\b34996ede148e6eba20920689e6af54854c3789c
+L
+src/Personnages/Traitre.java,2\e\2ed3366fa793f261dd33501d8b6ec1908a82cad4

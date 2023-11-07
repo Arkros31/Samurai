@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Humain {
-    private String nom;
-    private int argent;
-    private String boissonPref;
-    private List<Humain> memoire;
+    protected String nom;
+    protected int argent;
+    protected String boissonPref;
+    protected List<Humain> memoire;
 
     public Humain(String nom, int argent, String boissonPref) {
         this.nom = nom;
@@ -80,4 +80,18 @@ public class Humain {
 		parler("J'ai " + argent +" sous en poche. Je vais pouvoir m'offrir " + bien +" à " + prix +" sous");
 		perdreArgent(prix);
 	}
+
+	public void setArgent(int argent) {
+		this.argent = argent;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public List<Humain> getMemoire() {
+		return memoire;
+	}
+	
+	
 }
